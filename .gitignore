@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Datasets
+datasets/*.csv
+
+# Outputs (regenerable)
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
